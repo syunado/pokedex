@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'pokemon';
+    src: url("../pokedex/PokemonSolid.ttf");
+}
+@font-face {
+  font-family: 'pokemonbody';
+  src: url("../pokedex/pokemonbody.ttf");
+}
+h1 {
+    font-family: 'pokemon';
+    color: red;
+    font-size: 96px;
+    text-align: center;
+    margin-top: 1px;
+    letter-spacing: 6px;
+    -webkit-text-stroke: 0.5px black;
+
+}
+body {
+    background-color: white;
+}
+#main{
+  background-color: grey;
+  top: inherit;
+  text-align: center;
+
+}
+#paragraph-top {
+  background-color: white;
+  font-family: 'pokemonbody';
+}
+#pokedextitle {
+  top: 100px;
+}
